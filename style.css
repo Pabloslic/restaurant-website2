@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: ubonto, Arial, Helvetica, sans-serif;
+}
+
+/*...NAV...*/
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #0D1B2A;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    color: #E0E1DD;
+    position: fixed;
+    right: 0;
+    padding-right: 15px;
+}
+
+nav a {
+    color: #E0E1DD;
+    text-decoration: none;
+    transition: 0.3s ease-in-out;
+}
+
+nav a:hover {
+    color: #0D1B2A;
+    background-color: #E0E1DD;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.logo {
+    justify-content: flex-start;
+    align-items: flex-start;
+    font-size: 1.8rem;
+    color: #E0E1DD;
+    margin-right: 700px;
+    font-weight: 700;
+}
+
+/*...BUTTON...*/
+.btn {
+    margin-top: 30px;
+    color: #0D1B2A;
+    background-color: #b5d2f8;
+    padding: 1rem 1.5rem;
+    border-radius: 20px;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.btn:hover {
+    background-color: #0D1B2A;
+    color: #b5d2f8;
+    border-radius: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+.overlay {
+    margin: 10px;
+    height: 100vh;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.header {
+    background: linear-gradient(rgb(13, 27, 42, 0.3), rgb(65, 90, 119, 0.3)), url('./img/hamb.jpg') no-repeat center center/cover;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+/*...SECTION...*/
+#home {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 160px 140px;
+    color: #E0E1DD;
+    justify-content: center;
+    align-items: center;
+}
+
+#x {
+    color: #81b6fc;
+}
+.h-primary {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.overlay {
+    background: rgb(0, 0, 0, -0.5);
+    height: 100vh;
+}
+
+#p {
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+    color: #E0E1DD;
+}
