@@ -110,7 +110,7 @@ img {
     display: flex;
     text-align: center;
     flex-direction: column;
-    padding: 100px 80px;
+    padding: 80px 60px;
     color: #E0E1DD;
     justify-content: center;
     align-items: center;
@@ -120,9 +120,9 @@ img {
     color: #81b6fc;
 }
 .h-primary {
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 700;
-    margin-bottom: 5px;
+    margin-bottom: 31.25%;
 }
 
 .overlay {
@@ -132,7 +132,7 @@ img {
 
 #p {
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: 300;
     margin-bottom: 10px;
     color: #E0E1DD;
 }
@@ -359,4 +359,174 @@ footer {
     width: 100%;
     background-color: #0D1B2A;
     color: #E0E1DD;
+}
+
+/*...MEDIA QUERY...*/
+@media (max-width: 1200px) {
+    nav {
+        padding: 1rem 1rem;
+    }
+    .logo {
+        margin-right: 0;
+    }
+    ul {
+        gap: 1rem;
+    }
+    nav a {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 768px) {
+   nav a {
+        font-size: 1rem;
+    }
+    .logo {
+        margin-right: 0;
+    }
+    .btn {
+        font-size: 1rem;
+    }
+    .h-primary {
+        font-size: 2.5rem;
+        padding: 10px 0;
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+    #home {
+        padding: 50px 20px;
+    }
+    #menu {
+        padding: 0 20px;
+    }
+    .heading {
+        margin-bottom: 20px;
+        padding: 20px 0 20px 0;
+    }
+    .heading > h3 {
+        font-size: 1.2rem;
+    }
+    .card img {
+        height: 30vh;
+    }
+    .details p {
+        font-size: 1rem;
+    }
+    .details button {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    nav {
+        padding: 1rem 0.5rem;
+    }
+    .logo {
+        font-size: 1.5rem;
+    }
+    ul {
+        gap: 1rem;
+    }
+    nav a {
+        font-size: 0.9rem;
+    }
+    .btn {
+        font-size: 0.9rem;
+    }
+    #home {
+        padding: 30px 7px;
+    }
+    #menu {
+        padding: 0 10px;
+    }
+    .heading {
+        margin-bottom: 20px;
+        padding: 20px 0 20px 0;
+    }
+    .heading > h3 {
+        font-size: 1.5rem;
+    }
+    .h-primary {
+        font-size: 2.5rem;
+        padding: 10px 0;
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    #p {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 400px) {
+    nav {
+        padding: 1rem 0.5rem;
+    }
+    .logo {
+        font-size: 1.2rem;
+    }
+    ul {
+        gap: 0.5rem;
+    }
+    nav a {
+        font-size: 0.8rem;
+    }
+    .btn {
+        font-size: 0.8rem;
+    }
+    .h-primary {
+        font-size: 2rem;
+        padding: 10px 0;
+    }
+    #home {
+        padding: 20px 5px;
+    }
+    #menu {
+        padding: 0 5px;
+    }
+    .heading {
+        margin-bottom: 10px;
+        padding: 10px 0 10px 0;
+    }
+    .heading > h3 {
+        font-size: 0.8rem;
+    }
+    .heading > h1 {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 360px) {
+    nav {
+        padding: 1rem 0.5rem;
+    }
+    .logo {
+        font-size: 1.2rem;
+    }
+    ul {
+        gap: 0.5rem;
+    }
+    nav a {
+        font-size: 0.7rem;
+    }
+    .btn {
+        font-size: 0.7rem;
+    }
+    .h-primary {
+        font-size: 1.8rem;
+        padding: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    #p {
+        font-size: 0.9rem;
+    }
+    .heading {
+        margin-bottom: 8px;
+        padding: 8px 0 8px 0;
+        width: 80%;
+    }
+    .heading > h3 {
+        font-size: 10px;
+        letter-spacing: 3px;
+    }
 }
